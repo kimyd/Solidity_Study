@@ -1,8 +1,6 @@
 pragma solidity ^0.4.21;
 
-
-
-contract toyLottoSimple {
+contract toyLotto{
 
   uint public numOfLotto;
   mapping (uint => address) public lottoToOwner;  
